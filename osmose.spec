@@ -11,7 +11,7 @@ Group:		Emulators
 URL:		http://bcz.asterope.fr/
 Source0:	http://bcz.asterope.fr/osmose/%{oname}-%{oversion}.zip
 Source1:	%{name}.png
-BuildRequires:	libalsa2-devel
+BuildRequires:	alsa-lib-devel
 BuildRequires:	libz-devel
 BuildRequires:	qt4-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
