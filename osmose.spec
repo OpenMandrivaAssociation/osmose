@@ -37,8 +37,8 @@ install -m 0755 %{oname}-%{oversion} %{buildroot}%{_gamesbindir}/%{name}
 install -d -m 0755 %{buildroot}%{_datadir}/pixmaps
 install -m 0644 %{SOURCE1} %{buildroot}%{_datadir}/pixmaps/%{name}.png
 
-install -d -m 755 %{buildroot}%{_desktopdir}
-cat > %{buildroot}%{_desktopdir}/%{name}.desktop << EOF
+install -d -m 755 %{buildroot}%{_datadir}/applications
+cat > %{buildroot}%{_datadir}/applications/%{name}.desktop << EOF
 [Desktop Entry]
 Encoding=UTF-8
 Name=Osmose
@@ -55,7 +55,7 @@ EOF
 %defattr(-,root,root,-)
 %doc Readme.txt License.txt
 %{_gamesbindir}/%{name}
-%{_desktopdir}/%{name}.desktop
+%{_datadir}/applications/%{name}.desktop
 %{_datadir}/pixmaps/%{name}.png
 
 %clean
