@@ -3,7 +3,7 @@
 
 Name:		osmose
 Version:	0.9.96
-Release:	2
+Release:	3
 
 Summary:	A Sega Master System emulator
 License:	GPLv3
