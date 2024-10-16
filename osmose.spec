@@ -8,7 +8,7 @@ Release:	3
 Summary:	A Sega Master System emulator
 License:	GPLv3
 Group:		Emulators
-URL:		http://bcz.asterope.fr/
+URL:		https://bcz.asterope.fr/
 Source0:	http://bcz.asterope.fr/osmose/%{oname}-%{oversion}.zip
 Source1:	%{name}.png
 Patch0:		Osmose-0-9-96-QT-gcc4.7.patch
